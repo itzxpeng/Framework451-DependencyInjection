@@ -1,0 +1,49 @@
+#ignore thumbnails created by windows
+Thumbs.db
+
+#Ignore files build by Visual Studio
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.ilk
+*.log
+*.lib
+*.sbr
+*.xap
+.vs
+
+#Ignore files generate by VS
+**/[Bb]in/[Dd]ebug
+**/[Bb]in/[Rr]elease
+**/[Oo]bj/[Dd]ebug
+**/[Oo]bj/[Rr]elease
+**/[Oo]bj/[Xx]64/[Rr]elease
+**/[Oo]bj/[Xx]64/[Dd]ebug
+**/[Bb]in
+**/build.force
+**/csx
+**/FakesAssemblies
+
+#Ignore nuget packages
+packages/*
+!packages/repositories.config
+
+*/packages/*
+**/pkg/**
+**/obj/**
+/.idea/workspace.xml
+/.idea/vcs.xml
+/.idea/server.iml
+/.idea/modules.xml
+/.idea
