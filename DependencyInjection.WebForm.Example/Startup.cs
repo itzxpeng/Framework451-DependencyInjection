@@ -2,8 +2,8 @@
 using System.Threading.Tasks;
 using Microsoft.Owin;
 using Owin;
-using Microsoft.Extensions.DependencyInjection.SystemWeb;
-using Microsoft.Extensions.DependencyInjection;
+using Net451.Microsoft.Extensions.DependencyInjection.SystemWeb;
+using Net451.Microsoft.Extensions.DependencyInjection;
 
 [assembly: OwinStartup(typeof(DependencyInjection.WebForm.Example.Startup))]
 

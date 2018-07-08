@@ -2,9 +2,9 @@
 // Licensed under the Apache License, Version 2.0. See License.txt in the project root for license information.
 
 using System;
-using Common = Microsoft.Extensions.Internal;
+using Common = Net451.Microsoft.Extensions.Internal;
 
-namespace Microsoft.Extensions.DependencyInjection
+namespace Net451.Microsoft.Extensions.DependencyInjection
 {
     /// <summary>
     /// Helper code for the various activator services.

@@ -9,7 +9,7 @@ using System.Runtime.ExceptionServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Microsoft.Extensions.Internal
+namespace Net451.Microsoft.Extensions.Internal
 {
     internal static class ActivatorUtilities
     {

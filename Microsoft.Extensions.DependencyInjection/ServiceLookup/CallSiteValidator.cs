@@ -1,11 +1,11 @@
 // Copyright (c) .NET Foundation. All rights reserved.
 // Licensed under the Apache License, Version 2.0. See License.txt in the project root for license information.
 
-using Microsoft.Extensions.DependencyInjection.Properties;
+using Net451.Microsoft.Extensions.DependencyInjection.Properties;
 using System;
 using System.Collections.Concurrent;
 
-namespace Microsoft.Extensions.DependencyInjection.ServiceLookup
+namespace Net451.Microsoft.Extensions.DependencyInjection.ServiceLookup
 {
     internal class CallSiteValidator: CallSiteVisitor<CallSiteValidator.CallSiteValidatorState, Type>
     {

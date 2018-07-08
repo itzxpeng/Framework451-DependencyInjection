@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Microsoft.Extensions.DependencyInjection.ServiceLookup
+namespace Net451.Microsoft.Extensions.DependencyInjection.ServiceLookup
 {
     internal class ClosedIEnumerableService : IService
     {

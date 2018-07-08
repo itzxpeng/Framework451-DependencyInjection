@@ -5,7 +5,7 @@ using System;
 using System.Reflection;
 using System.Runtime.ExceptionServices;
 
-namespace Microsoft.Extensions.DependencyInjection.ServiceLookup
+namespace Net451.Microsoft.Extensions.DependencyInjection.ServiceLookup
 {
     internal class ConstructorCallSite : IServiceCallSite
     {

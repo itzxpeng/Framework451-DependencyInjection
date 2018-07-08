@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 
-namespace Microsoft.Extensions.Internal
+namespace Net451.Microsoft.Extensions.Internal
 {
     internal class ParameterDefaultValue
     {

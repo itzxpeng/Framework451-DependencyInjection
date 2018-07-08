@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Microsoft.Extensions.DependencyInjection.ConsoleApp
+namespace Net451.Microsoft.Extensions.DependencyInjection.ConsoleApp
 {
     public class DependencyInjectionStartup
     {

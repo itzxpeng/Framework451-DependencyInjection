@@ -4,7 +4,7 @@
 using System;
 using System.Reflection;
 
-namespace Microsoft.Extensions.DependencyInjection.ServiceLookup
+namespace Net451.Microsoft.Extensions.DependencyInjection.ServiceLookup
 {
     internal class GenericService : IGenericService
     {

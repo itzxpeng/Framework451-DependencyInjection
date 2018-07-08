@@ -3,7 +3,7 @@
 
 using System;
 
-namespace Microsoft.Extensions.DependencyInjection
+namespace Net451.Microsoft.Extensions.DependencyInjection
 {
     public static class ServiceCollectionContainerBuilderExtensions
     {

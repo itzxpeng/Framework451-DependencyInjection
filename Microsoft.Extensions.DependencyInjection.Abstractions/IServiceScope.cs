@@ -3,12 +3,12 @@
 
 using System;
 
-namespace Microsoft.Extensions.DependencyInjection
+namespace Net451.Microsoft.Extensions.DependencyInjection
 {
     /// <summary>
     /// The <see cref="System.IDisposable.Dispose"/> method ends the scope lifetime. Once Dispose
     /// is called, any scoped services that have been resolved from
-    /// <see cref="Microsoft.Extensions.DependencyInjection.IServiceScope.ServiceProvider"/> will be
+    /// <see cref="Net451.Microsoft.Extensions.DependencyInjection.IServiceScope.ServiceProvider"/> will be
     /// disposed.
     /// </summary>
     public interface IServiceScope : IDisposable

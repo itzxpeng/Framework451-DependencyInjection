@@ -3,7 +3,7 @@
 
 using System;
 
-namespace Microsoft.Extensions.DependencyInjection
+namespace Net451.Microsoft.Extensions.DependencyInjection
 {
     /// <summary>
     /// Extension methods for adding services to an <see cref="IServiceCollection" />.

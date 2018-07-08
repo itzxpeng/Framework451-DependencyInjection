@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Microsoft.Extensions.DependencyInjection.SystemWeb
+namespace Net451.Microsoft.Extensions.DependencyInjection.SystemWeb
 {
     internal enum RequestKey
     {

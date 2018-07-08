@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Microsoft.Extensions.DependencyInjection.ConsoleApp
+namespace Net451.Microsoft.Extensions.DependencyInjection.ConsoleApp
 {
     public class DIProviderInstance
     {

@@ -3,9 +3,9 @@
 
 using System;
 using System.Collections.Generic;
-using Microsoft.Extensions.DependencyInjection.Abstractions.Properties;
+using Net451.Microsoft.Extensions.DependencyInjection.Abstractions.Properties;
 
-namespace Microsoft.Extensions.DependencyInjection
+namespace Net451.Microsoft.Extensions.DependencyInjection
 {
     /// <summary>
     /// Extension methods for getting services from an <see cref="IServiceProvider" />.

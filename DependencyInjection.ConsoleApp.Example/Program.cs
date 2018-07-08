@@ -1,6 +1,6 @@
 ﻿using System;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.DependencyInjection.ConsoleApp;
+using Net451.Microsoft.Extensions.DependencyInjection;
+using Net451.Microsoft.Extensions.DependencyInjection.ConsoleApp;
 
 namespace DependencyInjection.ConsoleApp.Example
 {

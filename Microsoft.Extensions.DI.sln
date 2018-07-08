@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Extensions.DependencyInjection.Abstractions", "Microsoft.Extensions.DependencyInjection.Abstractions\Microsoft.Extensions.DependencyInjection.Abstractions.csproj", "{785862BB-34A7-48EC-8325-24053C414378}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net451.Microsoft.Extensions.DependencyInjection.Abstractions", "Microsoft.Extensions.DependencyInjection.Abstractions\Net451.Microsoft.Extensions.DependencyInjection.Abstractions.csproj", "{785862BB-34A7-48EC-8325-24053C414378}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Extensions.DependencyInjection", "Microsoft.Extensions.DependencyInjection\Microsoft.Extensions.DependencyInjection.csproj", "{454A6DFD-27DE-4BAC-88E8-014877C46139}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net451.Microsoft.Extensions.DependencyInjection", "Microsoft.Extensions.DependencyInjection\Net451.Microsoft.Extensions.DependencyInjection.csproj", "{454A6DFD-27DE-4BAC-88E8-014877C46139}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Extensions.DependencyInjection.ConsoleApp", "Microsoft.Extensions.DependencyInjection.ConsoleApp\Microsoft.Extensions.DependencyInjection.ConsoleApp.csproj", "{E8DCD0C3-657D-4BCC-A137-E156976BE42A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net451.Microsoft.Extensions.DependencyInjection.ConsoleApp", "Microsoft.Extensions.DependencyInjection.ConsoleApp\Net451.Microsoft.Extensions.DependencyInjection.ConsoleApp.csproj", "{E8DCD0C3-657D-4BCC-A137-E156976BE42A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Extensions.DependencyInjection.SystemWeb", "Microsoft.Extensions.DependencyInjection.SystemWeb\Microsoft.Extensions.DependencyInjection.SystemWeb.csproj", "{D6FBCF10-00C6-4EB4-B3B8-4A277462F874}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net451.Microsoft.Extensions.DependencyInjection.SystemWeb", "Microsoft.Extensions.DependencyInjection.SystemWeb\Net451.Microsoft.Extensions.DependencyInjection.SystemWeb.csproj", "{D6FBCF10-00C6-4EB4-B3B8-4A277462F874}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{AE6B68B5-3533-4F1A-918F-DE2166B98BBD}"
 EndProject
@@ -61,5 +61,8 @@ Global
 		{F5CF1B1B-CB2A-4D00-93F8-094B52885FE0} = {AE6B68B5-3533-4F1A-918F-DE2166B98BBD}
 		{4C85D25D-6737-40F7-95D8-140092826AC3} = {AE6B68B5-3533-4F1A-918F-DE2166B98BBD}
 		{5DF0D937-D287-483A-B3B4-132646800B5D} = {AE6B68B5-3533-4F1A-918F-DE2166B98BBD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0ADBD169-ACF2-43C6-A282-3D44440A4768}
 	EndGlobalSection
 EndGlobal

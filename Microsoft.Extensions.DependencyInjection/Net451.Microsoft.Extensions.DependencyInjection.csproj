@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{785862BB-34A7-48EC-8325-24053C414378}</ProjectGuid>
+    <ProjectGuid>{454A6DFD-27DE-4BAC-88E8-014877C46139}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Microsoft.Extensions.DependencyInjection.Abstractions</RootNamespace>
-    <AssemblyName>Microsoft.Extensions.DependencyInjection.Abstractions</AssemblyName>
+    <RootNamespace>Net451.Microsoft.Extensions.DependencyInjection</RootNamespace>
+    <AssemblyName>Net451.Microsoft.Extensions.DependencyInjection</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -37,40 +37,59 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ActivatorUtilities.cs" />
-    <Compile Include="Extensions\ServiceCollectionDescriptorExtensions.cs" />
-    <Compile Include="Internal\ActivatorUtilities.cs" />
-    <Compile Include="Internal\ObjectFactory.cs" />
-    <Compile Include="Internal\ParameterDefaultValue.cs" />
-    <Compile Include="IServiceCollection.cs" />
-    <Compile Include="IServiceProviderFactory.cs" />
-    <Compile Include="IServiceScope.cs" />
-    <Compile Include="IServiceScopeFactory.cs" />
-    <Compile Include="ISupportRequiredService.cs" />
-    <Compile Include="ObjectFactory.cs" />
+    <Compile Include="DefaultServiceProviderFactory.cs" />
+    <Compile Include="Internal\ConcurrentDictionaryExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="ServiceCollectionServiceExtensions.cs" />
-    <Compile Include="ServiceDescriptor.cs" />
-    <Compile Include="ServiceLifetime.cs" />
-    <Compile Include="ServiceProviderServiceExtensions.cs" />
+    <Compile Include="ServiceCollection.cs" />
+    <Compile Include="ServiceCollectionContainerBuilderExtensions.cs" />
+    <Compile Include="ServiceLookup\CallSiteExpressionBuilder.cs" />
+    <Compile Include="ServiceLookup\CallSiteRuntimeResolver.cs" />
+    <Compile Include="ServiceLookup\CallSiteValidator.cs" />
+    <Compile Include="ServiceLookup\CallSiteVisitor.cs" />
+    <Compile Include="ServiceLookup\ClosedIEnumerableCallSite.cs" />
+    <Compile Include="ServiceLookup\ClosedIEnumerableService.cs" />
+    <Compile Include="ServiceLookup\ConstantCallSite.cs" />
+    <Compile Include="ServiceLookup\ConstructorCallSite.cs" />
+    <Compile Include="ServiceLookup\CreateInstanceCallSite.cs" />
+    <Compile Include="ServiceLookup\EmptyIEnumerableCallSite.cs" />
+    <Compile Include="ServiceLookup\FactoryService.cs" />
+    <Compile Include="ServiceLookup\GenericService.cs" />
+    <Compile Include="ServiceLookup\IGenericService.cs" />
+    <Compile Include="ServiceLookup\InstanceService.cs" />
+    <Compile Include="ServiceLookup\IService.cs" />
+    <Compile Include="ServiceLookup\IServiceCallSite.cs" />
+    <Compile Include="ServiceLookup\OpenIEnumerableService.cs" />
+    <Compile Include="ServiceLookup\ScopedCallSite.cs" />
+    <Compile Include="ServiceLookup\Service.cs" />
+    <Compile Include="ServiceLookup\ServiceEntry.cs" />
+    <Compile Include="ServiceLookup\ServiceProviderService.cs" />
+    <Compile Include="ServiceLookup\ServiceScope.cs" />
+    <Compile Include="ServiceLookup\ServiceScopeFactory.cs" />
+    <Compile Include="ServiceLookup\ServiceScopeService.cs" />
+    <Compile Include="ServiceLookup\ServiceTable.cs" />
+    <Compile Include="ServiceLookup\SingletonCallSite.cs" />
+    <Compile Include="ServiceLookup\TransientCallSite.cs" />
+    <Compile Include="ServiceProvider.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Microsoft.Extensions.DependencyInjection.Abstractions\Net451.Microsoft.Extensions.DependencyInjection.Abstractions.csproj">
+      <Project>{785862BB-34A7-48EC-8325-24053C414378}</Project>
+      <Name>Net451.Microsoft.Extensions.DependencyInjection.Abstractions</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

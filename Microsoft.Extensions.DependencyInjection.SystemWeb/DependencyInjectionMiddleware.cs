@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 using Microsoft.Owin;
 using System.Web;
 
-namespace Microsoft.Extensions.DependencyInjection.SystemWeb
+namespace Net451.Microsoft.Extensions.DependencyInjection.SystemWeb
 {
-    public class DependencyInjectionMiddleware : Owin.OwinMiddleware
+    public class DependencyInjectionMiddleware : OwinMiddleware
     {
         private readonly IServiceCollection serviceCollection;
 

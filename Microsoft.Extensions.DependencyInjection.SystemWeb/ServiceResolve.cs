@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Microsoft.Extensions.DependencyInjection.SystemWeb
+namespace Net451.Microsoft.Extensions.DependencyInjection.SystemWeb
 {
     public class ServiceResolve
     {

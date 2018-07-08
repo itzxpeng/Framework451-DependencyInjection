@@ -52,17 +52,17 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Microsoft.Extensions.DependencyInjection.Abstractions\Microsoft.Extensions.DependencyInjection.Abstractions.csproj">
+    <ProjectReference Include="..\Microsoft.Extensions.DependencyInjection.Abstractions\Net451.Microsoft.Extensions.DependencyInjection.Abstractions.csproj">
       <Project>{785862bb-34a7-48ec-8325-24053c414378}</Project>
-      <Name>Microsoft.Extensions.DependencyInjection.Abstractions</Name>
+      <Name>Net451.Microsoft.Extensions.DependencyInjection.Abstractions</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Microsoft.Extensions.DependencyInjection.ConsoleApp\Microsoft.Extensions.DependencyInjection.ConsoleApp.csproj">
+    <ProjectReference Include="..\Microsoft.Extensions.DependencyInjection.ConsoleApp\Net451.Microsoft.Extensions.DependencyInjection.ConsoleApp.csproj">
       <Project>{e8dcd0c3-657d-4bcc-a137-e156976be42a}</Project>
-      <Name>Microsoft.Extensions.DependencyInjection.ConsoleApp</Name>
+      <Name>Net451.Microsoft.Extensions.DependencyInjection.ConsoleApp</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Microsoft.Extensions.DependencyInjection\Microsoft.Extensions.DependencyInjection.csproj">
+    <ProjectReference Include="..\Microsoft.Extensions.DependencyInjection\Net451.Microsoft.Extensions.DependencyInjection.csproj">
       <Project>{454a6dfd-27de-4bac-88e8-014877c46139}</Project>
-      <Name>Microsoft.Extensions.DependencyInjection</Name>
+      <Name>Net451.Microsoft.Extensions.DependencyInjection</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

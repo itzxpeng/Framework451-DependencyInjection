@@ -8,10 +8,10 @@ using System.Linq.Expressions;
 using System.Reflection;
 using System.Threading;
 using System.Threading.Tasks;
-using Microsoft.Extensions.DependencyInjection.ServiceLookup;
-using Microsoft.Extensions.DependencyInjection.Properties;
+using Net451.Microsoft.Extensions.DependencyInjection.ServiceLookup;
+using Net451.Microsoft.Extensions.DependencyInjection.Properties;
 
-namespace Microsoft.Extensions.DependencyInjection
+namespace Net451.Microsoft.Extensions.DependencyInjection
 {
     /// <summary>
     /// The default IServiceProvider.

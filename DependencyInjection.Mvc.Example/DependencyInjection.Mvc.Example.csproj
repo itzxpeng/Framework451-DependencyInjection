@@ -24,6 +24,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -189,17 +190,17 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="..\Microsoft.Extensions.DependencyInjection.Abstractions\Microsoft.Extensions.DependencyInjection.Abstractions.csproj">
+    <ProjectReference Include="..\Microsoft.Extensions.DependencyInjection.Abstractions\Net451.Microsoft.Extensions.DependencyInjection.Abstractions.csproj">
       <Project>{785862bb-34a7-48ec-8325-24053c414378}</Project>
-      <Name>Microsoft.Extensions.DependencyInjection.Abstractions</Name>
+      <Name>Net451.Microsoft.Extensions.DependencyInjection.Abstractions</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Microsoft.Extensions.DependencyInjection.SystemWeb\Microsoft.Extensions.DependencyInjection.SystemWeb.csproj">
+    <ProjectReference Include="..\Microsoft.Extensions.DependencyInjection.SystemWeb\Net451.Microsoft.Extensions.DependencyInjection.SystemWeb.csproj">
       <Project>{d6fbcf10-00c6-4eb4-b3b8-4a277462f874}</Project>
-      <Name>Microsoft.Extensions.DependencyInjection.SystemWeb</Name>
+      <Name>Net451.Microsoft.Extensions.DependencyInjection.SystemWeb</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Microsoft.Extensions.DependencyInjection\Microsoft.Extensions.DependencyInjection.csproj">
+    <ProjectReference Include="..\Microsoft.Extensions.DependencyInjection\Net451.Microsoft.Extensions.DependencyInjection.csproj">
       <Project>{454a6dfd-27de-4bac-88e8-014877c46139}</Project>
-      <Name>Microsoft.Extensions.DependencyInjection</Name>
+      <Name>Net451.Microsoft.Extensions.DependencyInjection</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
