@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Net451.Microsoft.Extensions.DependencyInjection</id>
+    <version>1.1.0</version>
+    <title>Net451.Microsoft.Extensions.DependencyInjection</title>
+    <authors>Peyton Zhang</authors>
+    <owners>Peyton Zhang</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/itzxpeng/Framework451-DependencyInjection</projectUrl>
+    <description>Microsoft Dependency Injection Framework For Framework 4.5.1</description>
+    <language>en-US</language>
+    <tags>DependencyInjection</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="Net451.Microsoft.Extensions.DependencyInjection.Abstractions" version="1.0.0" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Data" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Data.DataSetExtensions" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Xml.Linq" targetFramework=".NETFramework4.5" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="Internal\ConcurrentDictionaryExtensions.cs" target="Internal\ConcurrentDictionaryExtensions.cs" />
+    <file src="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" target="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <file src="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" target="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <file src="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" target="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <file src="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" target="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <file src="Properties\AssemblyInfo.cs" target="Properties\AssemblyInfo.cs" />
+    <file src="Properties\Resources.Designer.cs" target="Properties\Resources.Designer.cs" />
+    <file src="Properties\Resources.resx" target="Properties\Resources.resx" />
+    <file src="ServiceLookup\CallSiteExpressionBuilder.cs" target="ServiceLookup\CallSiteExpressionBuilder.cs" />
+    <file src="ServiceLookup\CallSiteRuntimeResolver.cs" target="ServiceLookup\CallSiteRuntimeResolver.cs" />
+    <file src="ServiceLookup\CallSiteValidator.cs" target="ServiceLookup\CallSiteValidator.cs" />
+    <file src="ServiceLookup\CallSiteVisitor.cs" target="ServiceLookup\CallSiteVisitor.cs" />
+    <file src="ServiceLookup\ClosedIEnumerableCallSite.cs" target="ServiceLookup\ClosedIEnumerableCallSite.cs" />
+    <file src="ServiceLookup\ClosedIEnumerableService.cs" target="ServiceLookup\ClosedIEnumerableService.cs" />
+    <file src="ServiceLookup\ConstantCallSite.cs" target="ServiceLookup\ConstantCallSite.cs" />
+    <file src="ServiceLookup\ConstructorCallSite.cs" target="ServiceLookup\ConstructorCallSite.cs" />
+    <file src="ServiceLookup\CreateInstanceCallSite.cs" target="ServiceLookup\CreateInstanceCallSite.cs" />
+    <file src="ServiceLookup\EmptyIEnumerableCallSite.cs" target="ServiceLookup\EmptyIEnumerableCallSite.cs" />
+    <file src="ServiceLookup\FactoryService.cs" target="ServiceLookup\FactoryService.cs" />
+    <file src="ServiceLookup\GenericService.cs" target="ServiceLookup\GenericService.cs" />
+    <file src="ServiceLookup\IGenericService.cs" target="ServiceLookup\IGenericService.cs" />
+    <file src="ServiceLookup\InstanceService.cs" target="ServiceLookup\InstanceService.cs" />
+    <file src="ServiceLookup\IService.cs" target="ServiceLookup\IService.cs" />
+    <file src="ServiceLookup\IServiceCallSite.cs" target="ServiceLookup\IServiceCallSite.cs" />
+    <file src="ServiceLookup\OpenIEnumerableService.cs" target="ServiceLookup\OpenIEnumerableService.cs" />
+    <file src="ServiceLookup\ScopedCallSite.cs" target="ServiceLookup\ScopedCallSite.cs" />
+    <file src="ServiceLookup\Service.cs" target="ServiceLookup\Service.cs" />
+    <file src="ServiceLookup\ServiceEntry.cs" target="ServiceLookup\ServiceEntry.cs" />
+    <file src="ServiceLookup\ServiceProviderService.cs" target="ServiceLookup\ServiceProviderService.cs" />
+    <file src="ServiceLookup\ServiceScope.cs" target="ServiceLookup\ServiceScope.cs" />
+    <file src="ServiceLookup\ServiceScopeFactory.cs" target="ServiceLookup\ServiceScopeFactory.cs" />
+    <file src="ServiceLookup\ServiceScopeService.cs" target="ServiceLookup\ServiceScopeService.cs" />
+    <file src="ServiceLookup\ServiceTable.cs" target="ServiceLookup\ServiceTable.cs" />
+    <file src="ServiceLookup\SingletonCallSite.cs" target="ServiceLookup\SingletonCallSite.cs" />
+    <file src="ServiceLookup\TransientCallSite.cs" target="ServiceLookup\TransientCallSite.cs" />
+    <file src="DefaultServiceProviderFactory.cs" target="DefaultServiceProviderFactory.cs" />
+    <file src="Net451.Microsoft.Extensions.DependencyInjection.csproj" target="Net451.Microsoft.Extensions.DependencyInjection.csproj" />
+    <file src="ServiceCollection.cs" target="ServiceCollection.cs" />
+    <file src="ServiceCollectionContainerBuilderExtensions.cs" target="ServiceCollectionContainerBuilderExtensions.cs" />
+    <file src="ServiceProvider.cs" target="ServiceProvider.cs" />
+  </files>
+</package>
