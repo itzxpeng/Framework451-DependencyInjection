@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>Net451.Microsoft.Extensions.DependencyInjection.Abstractions</id>
-    <version>1.0.0</version>
+    <version>2.0.1</version>
     <title>Net451.Microsoft.Extensions.DependencyInjection.Abstractions</title>
     <authors>Peyton Zhang</authors>
     <owners>Peyton Zhang</owners>
@@ -10,7 +10,7 @@
     <projectUrl>https://github.com/itzxpeng/Framework451-DependencyInjection</projectUrl>
     <description>Microsoft Dependency Injection Framework For Framework 4.5.1</description>
     <language>en-US</language>
-    <tags>DenpendencyInjection</tags>
+    <tags>DependencyInjection</tags>
     <dependencies>
       <group targetFramework=".NETFramework4.5">
         <dependency id="System.Globalization" version="4.3.0" />
@@ -28,36 +28,22 @@
     </frameworkAssemblies>
   </metadata>
   <files>
-    <file src="bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll" target="bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
-    <file src="bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.pdb" target="bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.pdb" />
     <file src="bin\Debug\Net451.Microsoft.Extensions.DependencyInjection.Abstractions.dll" target="bin\Debug\Net451.Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
     <file src="bin\Debug\Net451.Microsoft.Extensions.DependencyInjection.Abstractions.pdb" target="bin\Debug\Net451.Microsoft.Extensions.DependencyInjection.Abstractions.pdb" />
-    <file src="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" target="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
-    <file src="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" target="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
     <file src="Extensions\ServiceCollectionDescriptorExtensions.cs" target="Extensions\ServiceCollectionDescriptorExtensions.cs" />
     <file src="Internal\ActivatorUtilities.cs" target="Internal\ActivatorUtilities.cs" />
     <file src="Internal\ObjectFactory.cs" target="Internal\ObjectFactory.cs" />
     <file src="Internal\ParameterDefaultValue.cs" target="Internal\ParameterDefaultValue.cs" />
-    <file src="obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" target="obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
-    <file src="obj\Debug\DesignTimeResolveAssemblyReferences.cache" target="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
     <file src="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" target="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
-    <file src="obj\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.csproj.CoreCompileInputs.cache" target="obj\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.csproj.CoreCompileInputs.cache" />
-    <file src="obj\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.csproj.FileListAbsolute.txt" target="obj\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.csproj.FileListAbsolute.txt" />
-    <file src="obj\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.csproj.GenerateResource.cache" target="obj\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.csproj.GenerateResource.cache" />
-    <file src="obj\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.csprojAssemblyReference.cache" target="obj\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.csprojAssemblyReference.cache" />
-    <file src="obj\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll" target="obj\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
-    <file src="obj\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.pdb" target="obj\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.pdb" />
-    <file src="obj\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.Properties.Resources.resources" target="obj\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.Properties.Resources.resources" />
-    <file src="obj\Debug\Net451.Microsoft.Extensions.DependencyInjection.Abstractions.csproj.CoreCompileInputs.cache" target="obj\Debug\Net451.Microsoft.Extensions.DependencyInjection.Abstractions.csproj.CoreCompileInputs.cache" />
     <file src="obj\Debug\Net451.Microsoft.Extensions.DependencyInjection.Abstractions.csproj.FileListAbsolute.txt" target="obj\Debug\Net451.Microsoft.Extensions.DependencyInjection.Abstractions.csproj.FileListAbsolute.txt" />
-    <file src="obj\Debug\Net451.Microsoft.Extensions.DependencyInjection.Abstractions.csproj.GenerateResource.cache" target="obj\Debug\Net451.Microsoft.Extensions.DependencyInjection.Abstractions.csproj.GenerateResource.cache" />
+    <file src="obj\Debug\Net451.Microsoft.Extensions.DependencyInjection.Abstractions.csproj.GenerateResource.Cache" target="obj\Debug\Net451.Microsoft.Extensions.DependencyInjection.Abstractions.csproj.GenerateResource.Cache" />
+    <file src="obj\Debug\Net451.Microsoft.Extensions.DependencyInjection.Abstractions.csprojResolveAssemblyReference.cache" target="obj\Debug\Net451.Microsoft.Extensions.DependencyInjection.Abstractions.csprojResolveAssemblyReference.cache" />
     <file src="obj\Debug\Net451.Microsoft.Extensions.DependencyInjection.Abstractions.dll" target="obj\Debug\Net451.Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
     <file src="obj\Debug\Net451.Microsoft.Extensions.DependencyInjection.Abstractions.pdb" target="obj\Debug\Net451.Microsoft.Extensions.DependencyInjection.Abstractions.pdb" />
     <file src="obj\Debug\Net451.Microsoft.Extensions.DependencyInjection.Abstractions.Properties.Resources.resources" target="obj\Debug\Net451.Microsoft.Extensions.DependencyInjection.Abstractions.Properties.Resources.resources" />
     <file src="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" target="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <file src="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" target="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
     <file src="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" target="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
-    <file src="obj\Release\Net451.Microsoft.Extensions.DependencyInjection.Abstractions.csproj.CoreCompileInputs.cache" target="obj\Release\Net451.Microsoft.Extensions.DependencyInjection.Abstractions.csproj.CoreCompileInputs.cache" />
     <file src="Properties\AssemblyInfo.cs" target="Properties\AssemblyInfo.cs" />
     <file src="Properties\Resources.Designer.cs" target="Properties\Resources.Designer.cs" />
     <file src="Properties\Resources.resx" target="Properties\Resources.resx" />

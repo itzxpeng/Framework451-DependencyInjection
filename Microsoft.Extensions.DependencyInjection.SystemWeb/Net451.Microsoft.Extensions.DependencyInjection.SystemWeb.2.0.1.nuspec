@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
-    <id>Net451.Microsoft.Extensions.DependencyInjection.ConsoleApp</id>
-    <version>1.1.0</version>
-    <title>Net451.Microsoft.Extensions.DependencyInjection.ConsoleApp</title>
+    <id>Net451.Microsoft.Extensions.DependencyInjection.SystemWeb</id>
+    <version>2.0.1</version>
+    <title>Net451.Microsoft.Extensions.DependencyInjection.SystemWeb</title>
     <authors>Peyton Zhang</authors>
     <owners>Peyton Zhang</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -13,8 +13,11 @@
     <tags>DependencyInjection</tags>
     <dependencies>
       <group targetFramework=".NETFramework4.5">
-        <dependency id="Net451.Microsoft.Extensions.DependencyInjection" version="1.0.0" />
-        <dependency id="Net451.Microsoft.Extensions.DependencyInjection.Abstractions" version="1.0.0" />
+        <dependency id="Microsoft.Owin" version="3.0.1" />
+        <dependency id="Microsoft.Owin.Host.SystemWeb" version="3.0.1" />
+        <dependency id="Owin" version="1.0.0" />
+        <dependency id="Net451.Microsoft.Extensions.DependencyInjection.Abstractions" version="2.0.1" />
+        <dependency id="Net451.Microsoft.Extensions.DependencyInjection" version="2.0.1" />
       </group>
     </dependencies>
     <frameworkAssemblies>
@@ -24,28 +27,37 @@
       <frameworkAssembly assemblyName="System.Data" targetFramework=".NETFramework4.5" />
       <frameworkAssembly assemblyName="System.Data.DataSetExtensions" targetFramework=".NETFramework4.5" />
       <frameworkAssembly assemblyName="System.Net.Http" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Web" targetFramework=".NETFramework4.5" />
       <frameworkAssembly assemblyName="System.Xml" targetFramework=".NETFramework4.5" />
       <frameworkAssembly assemblyName="System.Xml.Linq" targetFramework=".NETFramework4.5" />
     </frameworkAssemblies>
   </metadata>
   <files>
-    <file src="bin\Debug\Microsoft.Extensions.DependencyInjection.ConsoleApp.dll" target="bin\Debug\Microsoft.Extensions.DependencyInjection.ConsoleApp.dll" />
-    <file src="bin\Debug\Microsoft.Extensions.DependencyInjection.ConsoleApp.pdb" target="bin\Debug\Microsoft.Extensions.DependencyInjection.ConsoleApp.pdb" />
+    <file src="bin\Debug\Microsoft.Owin.dll" target="bin\Debug\Microsoft.Owin.dll" />
+    <file src="bin\Debug\Microsoft.Owin.Host.SystemWeb.dll" target="bin\Debug\Microsoft.Owin.Host.SystemWeb.dll" />
+    <file src="bin\Debug\Microsoft.Owin.Host.SystemWeb.xml" target="bin\Debug\Microsoft.Owin.Host.SystemWeb.xml" />
+    <file src="bin\Debug\Microsoft.Owin.xml" target="bin\Debug\Microsoft.Owin.xml" />
     <file src="bin\Debug\Net451.Microsoft.Extensions.DependencyInjection.Abstractions.dll" target="bin\Debug\Net451.Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
     <file src="bin\Debug\Net451.Microsoft.Extensions.DependencyInjection.Abstractions.pdb" target="bin\Debug\Net451.Microsoft.Extensions.DependencyInjection.Abstractions.pdb" />
     <file src="bin\Debug\Net451.Microsoft.Extensions.DependencyInjection.dll" target="bin\Debug\Net451.Microsoft.Extensions.DependencyInjection.dll" />
     <file src="bin\Debug\Net451.Microsoft.Extensions.DependencyInjection.pdb" target="bin\Debug\Net451.Microsoft.Extensions.DependencyInjection.pdb" />
+    <file src="bin\Debug\Net451.Microsoft.Extensions.DependencyInjection.SystemWeb.dll" target="bin\Debug\Net451.Microsoft.Extensions.DependencyInjection.SystemWeb.dll" />
+    <file src="bin\Debug\Net451.Microsoft.Extensions.DependencyInjection.SystemWeb.pdb" target="bin\Debug\Net451.Microsoft.Extensions.DependencyInjection.SystemWeb.pdb" />
+    <file src="bin\Debug\Owin.dll" target="bin\Debug\Owin.dll" />
     <file src="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" target="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
-    <file src="obj\Debug\Microsoft.Extensions.DependencyInjection.ConsoleApp.dll" target="obj\Debug\Microsoft.Extensions.DependencyInjection.ConsoleApp.dll" />
-    <file src="obj\Debug\Microsoft.Extensions.DependencyInjection.ConsoleApp.pdb" target="obj\Debug\Microsoft.Extensions.DependencyInjection.ConsoleApp.pdb" />
-    <file src="obj\Debug\Net451.Microsoft.Extensions.DependencyInjection.ConsoleApp.csproj.FileListAbsolute.txt" target="obj\Debug\Net451.Microsoft.Extensions.DependencyInjection.ConsoleApp.csproj.FileListAbsolute.txt" />
-    <file src="obj\Debug\Net451.Microsoft.Extensions.DependencyInjection.ConsoleApp.csprojResolveAssemblyReference.cache" target="obj\Debug\Net451.Microsoft.Extensions.DependencyInjection.ConsoleApp.csprojResolveAssemblyReference.cache" />
+    <file src="obj\Debug\Net451.Microsoft.Extensions.DependencyInjection.SystemWeb.csproj.FileListAbsolute.txt" target="obj\Debug\Net451.Microsoft.Extensions.DependencyInjection.SystemWeb.csproj.FileListAbsolute.txt" />
+    <file src="obj\Debug\Net451.Microsoft.Extensions.DependencyInjection.SystemWeb.csprojResolveAssemblyReference.cache" target="obj\Debug\Net451.Microsoft.Extensions.DependencyInjection.SystemWeb.csprojResolveAssemblyReference.cache" />
+    <file src="obj\Debug\Net451.Microsoft.Extensions.DependencyInjection.SystemWeb.dll" target="obj\Debug\Net451.Microsoft.Extensions.DependencyInjection.SystemWeb.dll" />
+    <file src="obj\Debug\Net451.Microsoft.Extensions.DependencyInjection.SystemWeb.pdb" target="obj\Debug\Net451.Microsoft.Extensions.DependencyInjection.SystemWeb.pdb" />
     <file src="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" target="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <file src="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" target="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
     <file src="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" target="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <file src="Properties\AssemblyInfo.cs" target="Properties\AssemblyInfo.cs" />
+    <file src="DependencyInjectionMiddleware.cs" target="DependencyInjectionMiddleware.cs" />
     <file src="DependencyInjectionStartup.cs" target="DependencyInjectionStartup.cs" />
-    <file src="DIProviderInstance.cs" target="DIProviderInstance.cs" />
-    <file src="Net451.Microsoft.Extensions.DependencyInjection.ConsoleApp.csproj" target="Net451.Microsoft.Extensions.DependencyInjection.ConsoleApp.csproj" />
+    <file src="Net451.Microsoft.Extensions.DependencyInjection.SystemWeb.csproj" target="Net451.Microsoft.Extensions.DependencyInjection.SystemWeb.csproj" />
+    <file src="packages.config" target="packages.config" />
+    <file src="RequestKey.cs" target="RequestKey.cs" />
+    <file src="ServiceResolve.cs" target="ServiceResolve.cs" />
   </files>
 </package>

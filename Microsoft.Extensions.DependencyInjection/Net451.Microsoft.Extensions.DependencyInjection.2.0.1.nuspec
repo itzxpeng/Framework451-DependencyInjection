@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>Net451.Microsoft.Extensions.DependencyInjection</id>
-    <version>1.1.0</version>
+    <version>2.0.1</version>
     <title>Net451.Microsoft.Extensions.DependencyInjection</title>
     <authors>Peyton Zhang</authors>
     <owners>Peyton Zhang</owners>
@@ -13,7 +13,7 @@
     <tags>DependencyInjection</tags>
     <dependencies>
       <group targetFramework=".NETFramework4.5">
-        <dependency id="Net451.Microsoft.Extensions.DependencyInjection.Abstractions" version="1.0.0" />
+        <dependency id="Net451.Microsoft.Extensions.DependencyInjection.Abstractions" version="2.0.1" />
       </group>
     </dependencies>
     <frameworkAssemblies>
